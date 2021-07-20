@@ -18,6 +18,12 @@ module.exports = {
   purge: ["*.php", "./assets/src/js/*.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1200px",
+    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
@@ -31,29 +37,20 @@ module.exports = {
        *
        * https://tailwindcss.com/docs/customizing-colors#custom-colors
        * */
-      blue: {
-        light: "#6495ED", // text-blue-light
-        DEFAULT: "#0047AB", // text-blue
-        dark: "#00008B", // text-blue-dark
-        100: "#ff0000", // text-blue-100
+      white: {
+        DEFAULT: "#eeeeee", // text-white
       },
-      pink: {
-        light: "#ff7ce5",
-        DEFAULT: "#ff49db",
-        dark: "#ff16d1",
+      light: {
+        DEFAULT: "#aeaeae", // text-light
       },
       gray: {
-        darkest: "#1f2d3d",
-        dark: "#3c4858",
-        DEFAULT: "#c0ccda",
-        light: "#e0e6ed",
-        lightest: "#f9fafc",
+        DEFAULT: "#909090",
       },
-      white: {
-        DEFAULT: "#ffffff",
+      charcoal: {
+        DEFAULT: "#5c5c5c",
       },
       black: {
-        DEFAULT: "#000000",
+        DEFAULT: "#383838",
       },
     },
   },
