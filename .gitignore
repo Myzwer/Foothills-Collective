@@ -1,0 +1,6 @@
+/node_modules
+/assets/public
+.idea
+.DS_Store
+*.woff
+*.woff2
