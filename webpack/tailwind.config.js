@@ -24,6 +24,10 @@ module.exports = {
       lg: "1024px",
       xl: "1200px",
     },
+    fontFamily: {
+      gotham: ["gotham", "sans-serif"], // text-gotham
+      harbour: ["harbour", "serif"], // text-harbour
+    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
