@@ -30,7 +30,7 @@ get_header(); ?>
         <div class="grid grid-cols-12 gap-4 mt-6">
             <div class="col-span-12 lg:col-span-4 card-gradient-1 rounded-xl shadow-xl">
                 <div class="text-center p-4">
-                    <h2 class = "font-bold text-2xl">Title</h2>
+                    <h2 class = "font-bold text-2xl font-harbour">Title</h2>
                     <h4 class = "font-semibold">Subtitle</h4>
                     <p class = "text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam commodi consequuntur distinctio doloribus eaque, earum exercitationem, fuga iste labore magni, maxime molestiae nulla pariatur quod sapiente totam vel voluptate?</p>
                     <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
