@@ -16,8 +16,8 @@ This theme is designed to work for foothillscollective.com and supply the needs 
 
 - [**Webpack.**](https://classic.yarnpkg.com/en/package/webpack) Built on webpack, this template allows for a modern development workflow + a production ready build.
 - **Minification.** Complete with webpack's native features and CSSNano, this gets minifies and magnles both CSS and JS.
-- [**Prettier.**](https://prettier.io/) An opinionated code formatter. It automagically formats all your code on save so that it always looks the same. 
-- [**BrowserSync.**](https://browsersync.io/) Browsersync synchronises browsers, URLs, interactions and code changes across devices and automatically refreshes all the browsers on all devices on changes. 
+- [**Prettier.**](https://prettier.io/) An opinionated code formatter. It automagically formats all your code on save so that it always looks the same.
+- [**BrowserSync.**](https://browsersync.io/) Browsersync synchronises browsers, URLs, interactions and code changes across devices and automatically refreshes all the browsers on all devices on changes.
 - [**Sourcemaps.**]() Webpack generates sourcemaps for all js and css files, which helps with debugging.
 - Configuration. All of the config files have been neatly organized into /webpack to keep them out of the way of the main files. Webpack.config being the exception.
 
@@ -41,19 +41,20 @@ This theme is designed to work for foothillscollective.com and supply the needs 
 ---
 
 ## Install
+
 ```bash
 # 1-- Set up a local instance of Wordpress in Local or something.
 # 2-- Clone this into your themes folder (as a new theme)
 
 $ git clone https://github.com/Myzwer/Foothills-Collective.git
 
-# 2-- Edit the BrowserSync settings in `webpack.config.js`. Ya can't miss it. 
+# 2-- Edit the BrowserSync settings in `webpack.config.js`. Ya can't miss it.
 # 3-- Install yarn and all the project dependencies
 
 $ yarn install
 
 # 4-- Run a command and start making some magic.
-yarn dev 
+yarn dev
 yarn dev:watch
 yarn prod
 yarn prod:watch

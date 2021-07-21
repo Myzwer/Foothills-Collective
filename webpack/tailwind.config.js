@@ -25,8 +25,7 @@ module.exports = {
       xl: "1200px",
     },
     fontFamily: {
-      gotham: ["gotham", "sans-serif"], // text-gotham
-      harbour: ["harbour", "serif"], // text-harbour
+      main: ["Helvetica Neue LT Std", "sans-serif"], // text-gotham
     },
     colors: {
       transparent: "transparent",

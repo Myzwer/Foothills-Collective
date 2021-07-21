@@ -23,6 +23,6 @@
     <?php wp_head(); ?>
 </head>
 
-<body class="leading-normal tracking-normal font-gotham" <?php body_class(); ?>>
+<body class="leading-normal tracking-normal font-main" <?php body_class(); ?>>
 
 <?php wp_body_open(); ?>
