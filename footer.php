@@ -10,10 +10,9 @@
  */
 ?>
 <footer class="footer">
-    <div class="bg-black grid grid-cols-12 uppercase pt-5 md:pl-60 footer-contain">
-        <div class="col-span-8 md:col-span-2 mx-4 footer-col">
-        <ul class="pb-5 section-title cursor-default text-white text-sm">
-
+    <div class="bg-black grid grid-cols-12 uppercase pt-5 md:pl-5 lg:pl-60 footer-contain">
+        <div class="col-span-8 md:col-span-3 lg:col-span-2 ml-5 md:ml-10 lg:ml-5 footer-col">
+        <ul class="pb-5 section-title cursor-default text-white">
             <?php
             wp_nav_menu(array (
                 'theme_location' => 'footer-column-1',
@@ -22,9 +21,8 @@
             ?>
         </ul>
         </div>
-        <div class="col-span-8 md:col-span-2 mx-4 footer-col">
-            <ul class="pb-5 section-title text-white text-sm">
-
+        <div class="col-span-8 md:col-span-3 lg:col-span-2 mx-4 footer-col">
+            <ul class="pb-5 section-title text-white">
                 <?php
                 wp_nav_menu(array (
                         'theme_location' => 'footer-column-2',
@@ -33,8 +31,8 @@
                 ?>
             </ul>
         </div>
-        <div class="col-span-8 md:col-span-2 mx-4 footer-col">
-            <ul class="section-title text-white text-sm ">
+        <div class="col-span-8 md:col-span-3 lg:col-span-2 mx-4 footer-col">
+            <ul class="section-title text-white">
 
                 <?php
                 wp_nav_menu(array (
@@ -45,7 +43,6 @@
 
             </ul>
         </div>
-    <div class="clearfix"></div>
     </div>
 </footer>
 
