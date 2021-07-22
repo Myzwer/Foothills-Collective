@@ -58,4 +58,23 @@ function register_col_3() {
 }
 add_action('init', 'register_col_3');
 
+class footer_menu_walker extends Walker_Nav_Menu {
+    function start_el(&$output, $item, $depth=0, $args=[], $id=0) {
+        $output .= "<li class='" .  implode(" ", $item->classes) . "'>";
+
+        if ($item->url && $item->url != '#') {
+            $output .= '<a href="' . $item->url . '">';
+        } else {
+            $output .= '<span>';
+        }
+
+        $output .= $item->title;
+
+        if ($item->url && $item->url != '#') {
+            $output .= '</a>';
+        } else {
+            $output .= '</span>';
+        }
+    }
+}
 
