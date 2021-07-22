@@ -1,52 +1,18 @@
 /**
  * Footer
  * =================================
- * This file is what webpack actually renders out. It will contain an @use for all SCSS / Tailwind Files.
- * This file should be kept clean and free of loose edits. If it doesn't start with @use, it doesn't go here.
+ * This is the scss for the footer.
  *
  *
  */
-//.footer {
-//  background-color: #ffffff;
-//  height: auto;
-//  position: relative;
-//  text-transform: uppercase;
-//  width: 100%;
-//}
-//.footer .footer-col {
-//  box-sizing: border-box;
-//  float: left;
-//  height: auto;
-//  padding: 0 20px 20px;
-//  width: 240px;
-//}
-//
-
-//Needed more than 3 style selectors//
-
-
-.footer-col ul li {
-  cursor: pointer;
+.footer-col ul li:hover {
+  color: #ffffff;
   transition: 0.2s;
 }
 
-.footer-col ul li:hover {
-  color: #ffffff;
-  transition: 0.1s;
+.section-title span{
+  color: #909090;
 }
 
 
-.section-title a:nth-of-type(2n) {
-  color: #ffffff;
-  cursor: pointer;
-  pointer-events: none;
-}
-
-.footer-col a {
-  padding: 5px 0;
-}
-.footer {
-  height:auto;
-  width:100%;
-}
 
