@@ -12,7 +12,7 @@
  */
 
 get_header(); ?>
-
+<!--Header image-->
     <div class="content">
         <div class="bg-no-repeat bg-scroll bg-cover relative" style="background: linear-gradient(
       rgba(0, 0, 0, 0.45),
@@ -26,7 +26,7 @@ get_header(); ?>
         </div>
     </div>
 
-
+<!--This is what generates the text-->
     <div class="grid grid-cols-12 lg:mx-40 p-5 privacy-policy">
         <div class="col-span-12">
             <?php if (have_posts()) : while (have_posts()) : the_post();
