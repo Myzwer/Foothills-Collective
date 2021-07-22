@@ -9,23 +9,23 @@
  * @package Collective
  */
 ?>
-<footer>
-    <div class="bg-black grid grid-cols-12 uppercase pt-5 md:pl-60">
-        <div class="col-span-8 md:col-span-2 mx-4">
+<footer class="footer">
+    <div class="bg-black grid grid-cols-12 uppercase pt-5 md:pl-60 footer-contain">
+        <div class="col-span-8 md:col-span-2 mx-4 footer-col">
         <ul class="pb-5">
             <?php
             wp_nav_menu(array ('theme_location' => 'footer-column-1'));
             ?>
         </ul>
         </div>
-        <div class="col-span-8 md:col-span-2 mx-4">
+        <div class="col-span-8 md:col-span-2 mx-4 footer-col">
             <ul class="pb-5">
                 <?php
                 wp_nav_menu(array ('theme_location' => 'footer-column-2'));
                 ?>
             </ul>
         </div>
-        <div class="col-span-8 md:col-span-2 mx-4">
+        <div class="col-span-8 md:col-span-2 mx-4 footer-col>
             <ul class="">
                 <?php
                 wp_nav_menu(array ('theme_location' => 'footer-column-3'));

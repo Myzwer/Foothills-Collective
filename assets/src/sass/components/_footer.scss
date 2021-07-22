@@ -1,0 +1,47 @@
+/**
+ * Footer
+ * =================================
+ * This file is what webpack actually renders out. It will contain an @use for all SCSS / Tailwind Files.
+ * This file should be kept clean and free of loose edits. If it doesn't start with @use, it doesn't go here.
+ *
+ *
+ */
+.footer {
+  background-color: #ffffff;
+  height: auto;
+  position: relative;
+  text-transform: uppercase;
+  width: 100%;
+}
+.footer .footer-col {
+  box-sizing: border-box;
+  float: left;
+  height: auto;
+  padding: 0 20px 20px;
+  width: 240px;
+}
+
+.footer .footer-col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .footer-col ul li {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 0;
+  transition: .2s;
+}
+
+.footer .footer-col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+}
+
+
+
+
+
