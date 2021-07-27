@@ -42,3 +42,39 @@ function load_styles() {
     wp_enqueue_style( 'frontend', get_template_directory_uri() . '/assets/public/css/frontend.css');
 }
 add_action('wp_enqueue_scripts', 'load_styles');
+
+function register_col_1() {
+    register_nav_menu('footer-column-1', ('Footer Column 1'));
+}
+add_action('init', 'register_col_1');
+
+function register_col_2() {
+    register_nav_menu('footer-column-2', ('Footer Column 2'));
+}
+add_action('init', 'register_col_2');
+
+function register_col_3() {
+    register_nav_menu('footer-column-3', ('Footer Column 3'));
+}
+add_action('init', 'register_col_3');
+
+class footer_menu_walker extends Walker_Nav_Menu {
+    function start_el(&$output, $item, $depth=0, $args=[], $id=0) {
+        $output .= "<li class='" .  implode(" ", $item->classes) . "'>";
+
+        if ($item->url && $item->url != '#') {
+            $output .= '<a href="' . $item->url . '">';
+        } else {
+            $output .= '<span>';
+        }
+
+        $output .= $item->title;
+
+        if ($item->url && $item->url != '#') {
+            $output .= '</a>';
+        } else {
+            $output .= '</span>';
+        }
+    }
+}
+
