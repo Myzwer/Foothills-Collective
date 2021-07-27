@@ -26,8 +26,8 @@ get_header();
         </div>
 <div class="mx-5 md:mx-64">
         <h1 class="text-center text-2xl md:text-7xl pt-5 md:pb-8 md:pt-10 "><?php the_field('title'); ?></h1>
-        <hr class="pb-8">
-        <h2 class="text-lg md:text-3xl md:text-center leading-6 pt-3 pb-10 md:pb-20 "><?php the_field('subtitle'); ?></h2>
+        <hr class="md:pb-8 ">
+        <h2 class="text-lg md:text-3xl text-center leading-6 pt-3 pb-10 md:pb-20 "><?php the_field('subtitle'); ?></h2>
 
         <p class="font-bold pb-3 md:pb-1 "><?php the_field('bodyhead-1'); ?></p>
         <p class="pb-8 md:pb-16 "><?php the_field('body-1'); ?></p>
