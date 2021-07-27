@@ -1,3 +1,9 @@
+/**
+ * 404 page css
+ * =================================
+ * This is where all typography edits for the 404 are.
+ */
+
 .error-page {
   align-items: center;
   display: flex;
@@ -15,6 +21,8 @@
 .sorry {
   color: #5c5c5c;
 }
+
+//gradient animation
 .error-page h1:after {
   animation: animateTextBackground 10s ease-in-out infinite;
   /* webkit only for graceful degradation to IE */
@@ -78,6 +86,8 @@
     position: relative;
   }
 }
+
+//button
 .back {
   background: repeating-linear-gradient(-45deg, #71b7e6, #69a6ce, #b98acc, #ee8176);
   border-radius: 5px;

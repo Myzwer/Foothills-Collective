@@ -3,6 +3,9 @@
  * The template for displaying 404 pages (not found)
  * Page design by: https://codepen.io/johnfinkdesign/pen/XjkBPE?editors=1100
  *
+ * Template Name: 404
+ *
+ *
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
  * @package wordpack-theme
@@ -21,7 +24,7 @@ get_header();
 
 <div class="container-404">
         <div class="button-404">
-            <a class="back" href="#">GO BACK</a>
+            <a class="back" href="/frontpage">GO BACK</a>
         </div>
 </div>
 
