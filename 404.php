@@ -15,11 +15,12 @@ get_header();
         <div>
             <h1 data-h1="404">404</h1>
             <p data-p="NOT FOUND">NOT FOUND</p>
-            <p> </p>
+            <p class="sorry">Sorry this page does not exist.</p>
         </div>
     </div>
+        <div class="button-404">
     <a class="back" href="#">GO BACK</a>
-
+        </div>
 
 <?php
 get_footer();
