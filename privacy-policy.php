@@ -17,11 +17,12 @@ get_header(); ?>
         <div class="bg-no-repeat bg-scroll bg-cover relative" style="background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
-    ), url('https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1334&q=80');
+    ), url('https://images.unsplash.com/photo-1557787163-1635e2efb160?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1504&q=80');
      background-position: center center;
      height: 60vh;">
+
             <div class="content-middle text-white text-center">
-                <h1 class="text-4xl pt-32 ">Privacy Policy</h1>
+                <h1 class="text-4xl mb-5">Privacy Policy</h1>
             </div>
         </div>
     </div>
