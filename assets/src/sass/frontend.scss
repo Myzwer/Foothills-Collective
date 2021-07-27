@@ -12,6 +12,8 @@
 @use 'components/footer.scss';
 @use 'components/typography';
 @use 'components/backgrounds';
+@use 'components/page404';
+
 
 // This section adds tailwind, but @tailwind isn't recognized so we have to suppress stylelint.
 
