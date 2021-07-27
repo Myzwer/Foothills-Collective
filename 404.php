@@ -18,9 +18,13 @@ get_header();
             <p class="sorry">Sorry this page does not exist.</p>
         </div>
     </div>
+
+<div class="container-404">
         <div class="button-404">
-    <a class="back" href="#">GO BACK</a>
+            <a class="back" href="#">GO BACK</a>
         </div>
+</div>
+
 
 <?php
 get_footer();

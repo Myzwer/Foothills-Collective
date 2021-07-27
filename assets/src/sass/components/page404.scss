@@ -3,8 +3,8 @@
   display: flex;
   height: 100%;
   justify-content: center;
-  text-align: center;
   padding-top: 100px;
+  text-align: center;
 }
 .error-page h1 {
   font-size: 30vh;
@@ -72,10 +72,10 @@
   }
   .error-page h1 + p {
     font-size: 8vw;
+    left: 10px;
     line-height: 10vw;
     max-width: 70vw;
     position: relative;
-    left: 10px;
   }
 }
 .back {
@@ -88,12 +88,23 @@
   line-height: 24px;
   padding: 15px 30px;
   text-decoration: none;
-  transition: 0.25s all ease-in-out;
+  transition: .25s all ease-in-out;
 }
 .back:hover {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
+.container-404 {
+  height: 200px;
+  position: relative;
+}
+
 .button-404 {
-  padding-bottom: 50px;
-  padding-top: 50px;
+  left: 50%;
+  margin: 0;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
