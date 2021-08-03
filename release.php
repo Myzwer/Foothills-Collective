@@ -20,13 +20,14 @@ get_header(); ?>
     ), url('http://foothills-collective.local/wp-content/uploads/2021/08/Collective-Black-And-White.jpg');
      background-position: center center;
      height: 100vh;">
-
+<div class="pt-20">
 <div class="grid grid-cols-12">
-            <div class=" lg:mx-40 bg-white col-span-12">
-                    <img class="h-32 w-32 inline rounded-full" src="http://foothills-collective.local/wp-content/uploads/2021/08/Collective-Profile-Photo.jpg">
+            <div class=" lg:mx-40 bg-white p-5 col-span-12">
+                    <img class="h-32 w-32 rounded-full mx-auto -mt-20" src="http://foothills-collective.local/wp-content/uploads/2021/08/Collective-Profile-Photo.jpg">
             </div>
         </div>
     </div>
+        </div>
     </div>
 
 
