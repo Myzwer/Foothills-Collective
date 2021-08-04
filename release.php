@@ -22,11 +22,11 @@ get_header(); ?>
      height: 100%;">
 <div class="pt-20">
 <div class="grid grid-cols-12">
-            <div class=" lg:mx-64 bg-white p-5 col-span-12 rounded-lg mx-5">
+            <div class=" lg:mx-40 xl:mx-64 bg-white p-5 col-span-12 rounded-lg mx-5">
                 <img class="h-32 w-32 rounded-full mx-auto -mt-20" src="http://foothills-collective.local/wp-content/uploads/2021/08/Collective-Profile-Photo.jpg">
            <h2 class="text-center pt-5 text-2xl font-bold">Foothills Collective</h2>
                 <h2 class="text-center pt-2"><i class="fas fa-map-marker-alt pr-1"></i> Knoxville, TN</h2>
-                <h2 class="text-center xl:mx-64 md:mx-40 lg:mx-20 pt-3">We are a collection of artists, musicians, songwriters, and producers out of Foothills Church with the desire to create music that connects people to Jesus.</h2>
+                <h2 class="text-center xl:mx-64 md:mx-40 lg:mx-32 pt-3">We are a collection of artists, musicians, songwriters, and producers out of Foothills Church with the desire to create music that connects people to Jesus.</h2>
 
                     <div class="text-center pt-5">
                         <a href="#"><i class="fab fa-instagram bg-black md:p-5 p-3 rounded-full text-white"></i></a>
@@ -56,33 +56,61 @@ get_header(); ?>
 
 
             <div class="pt-20">
-                <div class="grid grid-cols-12 md:gap-5 pb-5 lg:mx-64">
-                    <div class="bg-white col-span-12 md:col-span-6 rounded-lg ">
+                <div class="grid grid-cols-12 md:gap-5 gap-y-5 pb-5 md:mx-5 lg:mx-40 xl:mx-64">
+                    <div class="bg-white col-span-12 md:col-span-3 lg:col-span-3 rounded-lg ">
                         <div class="grid grid-cols-12">
-                            <div class="col-span-3">
+                            <div class="col-span-3 md:col-span-12 md:-mt-10 ">
                                 <i class="text-7xl inline md:block md:text-center  fab fa-youtube"></i>
                             </div>
 
                             <div class="col-span-9 md:col-span-12">
-                                <h2 class="md:text-center text-sm text-gray hidden md:block">YouTube</h2>
-                                <h2 class="md:text-center pt-3 uppercase mx-1 text-sm font-bold col-span-8">Even If He Doesn't</h2>
-                                <h2 class="md:text-center uppercase mx-1 text-sm font-bold hidden md:block">-</h2>
-                                <h2 class="md:text-center md:mx-4 text-xs col-span-8">Song Story Available Now</h2>
+                                <h2 class="md:text-center text-sm text-gray hidden md:block md:pt-2">YouTube</h2>
+                                <h2 class="md:text-center pt-3 uppercase mx-1 text-sm font-bold col-span-8 md:pb-3 md:pt-5">Even If He Doesn't</h2>
+                                <h2 class="md:text-center uppercase mx-1 text-sm font-bold hidden md:block md:pb-3">-</h2>
+                                <h2 class="md:text-center md:mx-4 mx-1 text-xs col-span-8 md:pb-5">Song Story Available Now</h2>
                             </div>
                         </div>
                     </div>
 
-                    <div class="bg-white col-span-12 md:col-span-6 rounded-lg ">
+                    <div class="bg-white col-span-12 md:col-span-3 lg:col-span-3 rounded-lg ">
                         <div class="grid grid-cols-12">
-                            <div class="col-span-3">
+                            <div class="col-span-3 md:col-span-12 md:-mt-10">
                                 <i class="text-7xl inline md:block md:text-center  fab fa-youtube"></i>
                             </div>
 
                             <div class="col-span-9 md:col-span-12">
-                                <h2 class="md:text-center text-sm text-gray hidden md:block">YouTube</h2>
-                                <h2 class="md:text-center pt-3 uppercase mx-1 text-sm font-bold col-span-8">Even If He Doesn't</h2>
-                                <h2 class="md:text-center uppercase mx-1 text-sm font-bold hidden md:block">-</h2>
-                                <h2 class="md:text-center md:mx-4 text-xs col-span-8">Song Story Available Now</h2>
+                                <h2 class="md:text-center text-sm text-gray hidden md:block md:pt-2">Spotify</h2>
+                                <h2 class="md:text-center pt-3 uppercase mx-1 text-sm font-bold col-span-8 md:pb-3 md:pt-5">Even If He Doesn't</h2>
+                                <h2 class="md:text-center uppercase mx-1 text-sm font-bold hidden md:block md:pb-3">-</h2>
+                                <h2 class="md:text-center md:mx-4 mx-1 text-xs col-span-8">Song Story Available Now</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white col-span-12 md:col-span-3 lg:col-span-3 rounded-lg ">
+                        <div class="grid grid-cols-12">
+                            <div class="col-span-3 md:col-span-12 md:-mt-10 ">
+                                <i class="text-7xl inline md:block md:text-center  fab fa-youtube"></i>
+                            </div>
+
+                            <div class="col-span-9 md:col-span-12">
+                                <h2 class="md:text-center text-sm text-gray hidden md:block md:pt-2">Apple Music</h2>
+                                <h2 class="md:text-center pt-3 uppercase mx-1 text-sm font-bold col-span-8 md:pb-3 md:pt-5">Even If He Doesn't</h2>
+                                <h2 class="md:text-center uppercase mx-1 text-sm font-bold hidden md:block md:pb-3">-</h2>
+                                <h2 class="md:text-center md:mx-4 mx-1 text-xs col-span-8">Song Story Available Now</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white col-span-12 md:col-span-3 lg:col-span-3 rounded-lg ">
+                        <div class="grid grid-cols-12">
+                            <div class="col-span-3 md:col-span-12 md:-mt-10">
+                                <i class="text-7xl inline md:block md:text-center  fab fa-youtube"></i>
+                            </div>
+
+                            <div class="col-span-9 md:col-span-12">
+                                <h2 class="md:text-center text-sm text-gray hidden md:block md:pt-2">Amazon</h2>
+                                <h2 class="md:text-center pt-3 uppercase mx-1 text-sm font-bold col-span-8 md:pb-3 md:pt-5">Even If He Doesn't</h2>
+                                <h2 class="md:text-center uppercase mx-1 text-sm font-bold hidden md:block md:pb-3">-</h2>
+                                <h2 class="md:text-center md:mx-4 mx-1 text-xs col-span-8">Song Story Available Now</h2>
                             </div>
                         </div>
                     </div>
