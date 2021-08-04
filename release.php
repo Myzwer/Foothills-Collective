@@ -55,12 +55,12 @@ get_header(); ?>
 
 
 
-            <div class="pt-20">
-                <div class="grid grid-cols-12 md:gap-5 gap-y-5 pb-5 md:mx-5 lg:mx-40 xl:mx-64">
+            <div class="pt-32">
+                <div class="grid grid-cols-12 md:gap-5 xl:gap-10 gap-y-5 pb-5 md:mx-5 lg:mx-40 xl:mx-64">
                     <div class="bg-white col-span-12 md:col-span-3 lg:col-span-3 rounded-lg ">
-                        <div class="grid grid-cols-12">
-                            <div class="col-span-3 md:col-span-12 md:-mt-10 ">
-                                <i class="text-7xl inline md:block md:text-center  fab fa-youtube"></i>
+                        <a href="#"><div class="grid grid-cols-12">
+                            <div class="col-span-3 md:col-span-12 md:-mt-6 ">
+                                <img src="http://foothills-collective.local/wp-content/uploads/2021/08/yt_icon_rgb.png" class="text-6xl inline md:block md:mx-auto ytred w-16">
                             </div>
 
                             <div class="col-span-9 md:col-span-12">
@@ -70,12 +70,13 @@ get_header(); ?>
                                 <h2 class="md:text-center md:mx-4 mx-1 text-xs col-span-8 md:pb-5">Song Story Available Now</h2>
                             </div>
                         </div>
+                        </a>
                     </div>
 
                     <div class="bg-white col-span-12 md:col-span-3 lg:col-span-3 rounded-lg ">
                         <div class="grid grid-cols-12">
-                            <div class="col-span-3 md:col-span-12 md:-mt-10">
-                                <i class="text-7xl inline md:block md:text-center  fab fa-youtube"></i>
+                            <div class="col-span-3 md:col-span-12 md:-mt-8">
+                                <img src="http://foothills-collective.local/wp-content/uploads/2021/08/Spotify.png" class="text-6xl inline md:block md:text-center spotgreen w-14 md:mx-auto">
                             </div>
 
                             <div class="col-span-9 md:col-span-12">
@@ -88,8 +89,8 @@ get_header(); ?>
                     </div>
                     <div class="bg-white col-span-12 md:col-span-3 lg:col-span-3 rounded-lg ">
                         <div class="grid grid-cols-12">
-                            <div class="col-span-3 md:col-span-12 md:-mt-10 ">
-                                <i class="text-7xl inline md:block md:text-center  fab fa-youtube"></i>
+                            <div class="col-span-3 md:col-span-12 md:-mt-8 ">
+                                <img src="http://foothills-collective.local/wp-content/uploads/2021/08/Apple_Music.png" class="text-6xl inline md:block md:text-center appred w-14 md:mx-auto">
                             </div>
 
                             <div class="col-span-9 md:col-span-12">
@@ -102,8 +103,8 @@ get_header(); ?>
                     </div>
                     <div class="bg-white col-span-12 md:col-span-3 lg:col-span-3 rounded-lg ">
                         <div class="grid grid-cols-12">
-                            <div class="col-span-3 md:col-span-12 md:-mt-10">
-                                <i class="text-7xl inline md:block md:text-center  fab fa-youtube"></i>
+                            <div class="col-span-3 md:col-span-12 md:-mt-8">
+                                <i class="text-6xl inline md:block md:text-center  fab fa-amazon"></i>
                             </div>
 
                             <div class="col-span-9 md:col-span-12">
