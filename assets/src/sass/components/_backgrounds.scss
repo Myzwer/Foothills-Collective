@@ -1,0 +1,16 @@
+/**
+ * Backgrounds
+ * =================================
+ * This is the scss file for backgrounds.
+ */
+
+.content {
+  margin-top: 55px;
+}
+
+.content-middle {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

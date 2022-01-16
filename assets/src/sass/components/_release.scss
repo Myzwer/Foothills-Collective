@@ -1,0 +1,39 @@
+/**
+ * Release Page CSS
+ * =================================
+ * This is the CSS file for the Release Page.
+ */
+
+.release-profile {
+  //bottom: 25%;
+  //display: inline;
+  //height:120px;
+  //left: 50%;
+  //position: absolute;
+  //transform: translate(-50%, -50%);
+  //width:120px;
+  //height:120px;
+}
+.ytred {
+  color:#FF0000;
+}
+.spotgreen{
+  color: #1DB954;
+}
+.appred{
+  color: #fc3c44;
+}
+.hover-text:hover {
+  background: rgba(232, 232, 232, 0.85);
+  box-shadow: 0 0 60px #ffffff,
+  0 0 20px #ffffff;
+}
+.amazonlogo {
+  font-size: 3.25em;
+  line-height: 1;
+}
+.social-cards{
+  min-height: 70px;
+}
+
+
